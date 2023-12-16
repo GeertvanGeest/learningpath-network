@@ -27,8 +27,16 @@ ui <- fluidPage(
   ),
   hr(),
   fluidRow(
+    column(4,
+           radioButtons("graph_direction", 
+                        label = "Learning path subgraph direction",
+                        choices = list("requires" = "in",
+                                       "is required for" = "out"),
+                        selected = "in"))
+  ),
+  fluidRow(
     column(8,
-           h3("Learning path"),
+           h3("Learning path subgraph"),
            visNetworkOutput("subnetwork")
     ),
     column(4,
@@ -83,7 +91,8 @@ server <- function(input, output) {
       return(NULL)
     } else {
       gs <- make_ego_graph(g, order = 3,
-                           nodes = input$current_node_id$nodes[[1]], mode = "in")
+                           nodes = input$current_node_id$nodes[[1]],
+                           mode = input$graph_direction)
       
       vng <- toVisNetworkData(gs[[1]])
       

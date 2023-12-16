@@ -1,0 +1,44 @@
+group,id,title
+Intermediate,*_ADVU,UNIX Shell Scripting in Life Sciences
+Intermediate,*_BPP,Best Practices in Programming
+Beginner,*_GIT,Version Control with Git
+Beginner,*_GPU,Introduction to GPU Programming for Life Sciences
+Beginner,*_DOCK,Docker and Singularity for Reproducible Research: Getting Started with Containers
+Beginner,*_ICWRR,Introduction to Containers and Snakemake for Reproducible Research
+Intermediate,*_OPTPY,Optimizing Python Code for Better Performance
+Intermediate,*_DARPY,Data Analysis and Representation in Python
+Intermediate,*_INTPY,Intermediate Python
+Beginner,*_INMLP,Introduction to Machine Learning with Python
+Intermediate,*_STAML,Statistics and Machine Learning for Life Sciences
+Intermediate,*_PRDIP,Practical dip into deep learning - a PyTorch short crash-course
+Advanced,*_APRWR,Advanced Programming with R
+Beginner,*_SHINY,Introduction to R Shiny
+Advanced,*_RPACK,R-packaging
+Beginner,*_DATVS,Data Visualisation with R
+Intermediate,*_RERWR,Reproducible research with R: from data management to communication of results
+Beginner,*_NGSQC,"NGS - Quality Control, Alignment, Visualisation"
+Beginner,*_NGSGV,NGS - Genome Variant Analysis
+Beginner,*_IRNAS,Introduction to RNA-Seq: From Quality Control to Pathway Analysis
+Intermediate,*_ISCTR,Single-cell Transcriptomics
+Intermediate,*_FAIR,Making Your Research Data FAIR
+Intermediate,*_IBAYE,Introduction to Bayesian Statistics with R
+Intermediate,2021_EVDP,Explore and Visualize Your Data with Python
+Beginner,2018_HPCLS,High Performance Computing in Life Sciences
+Beginner,*_FSWU,First Steps with UNIX for Life Scientists
+Beginner,*_PYTFS,First Steps with Python in Life Sciences
+Beginner,*_FSWIR,First Steps with R in Life Sciences
+Beginner,2012_UNIXF,UNIX Fundamentals
+Beginner,*_STATR,Introduction to Statistics with R
+Beginner,*_DLFLS,Deep Learning for Life Sciences - fundamentals and applications
+AND,and_IBAYE,AND
+AND,and_PRDIP,AND
+OR,or_BPP,OR
+OR,or_DARPY,OR
+OR,or_DOCK,OR
+OR,or_GIT,OR
+OR,or_HPCLS,OR
+OR,or_ICWRR,OR
+OR,or_INMLP,OR
+OR,or_INTPY,OR
+OR,or_NGSQC,OR
+OR,or_STAML,OR
